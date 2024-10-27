@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" contenet="Description of this page">
+    <title>HTML Adventure Game</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the HTML Adventure</h1>
+        <nav>
+            <ul>
+                <li><a href="#section-cave">Dark River</a></li>
+                <li><a href="#section-river">Mysterious River</a></li>
+                <li><a href="#section-mountain">Tall Mountain</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <section id="section-introduction">
+            <div>
+                <h2>Introduction</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id eveniet, eius optio voluptatem esse fugiat expedita impedit repudiandae, accusantium repellat dolore. Nostrum labore hic reiciendis omnis nisi perspiciatis in iste.</p>
+                <p>you'll encounter a <abbr title="Non Player Character">NPC</abbr> or two. Make your choice careful</p>
+                <hr>
+            </div>
+        </section>
+        <section id="section-cave">
+            <div>
+                <h2>The dark cave</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam recusandae voluptate ex delectus, accusantium dolorum illum nesciunt magnam saepe. Adipisci sapiente praesentium tempora placeat a illo veniam veritatis magni omnis!</p>
+                <form action="" method="post">
+                    
+                    <fieldset>
+                    <legend> What do you do ?</legend>
+                    <input type="radio" id="choice-fight" name="cave_choice" value="fight"><label for="choice-fight" checked>Fight the dragon</label><br>
+                    <input type="radio" id="choice-flee" name="cave_choice" value="flee"><label for="choice-flee">Flee the dragon</label><br>
+                    <input type="submit" value="Choose">
+                </fieldset>
+                </form>
+                <article>
+                    <h3>Dragon Lore</h3>
+                    <blockquote>"Lorem ipsum dolor sit amet consectetur adipisicing elit." <cite> Architecto, id vero expedita corrupti fuga </cite> doloremque ipsum pariatur  repellat!</blockquote>
+                    <p><mark>Only the bold will suceed</mark></p>
+                </article>
+            </div>
+        </section>
+        <section id="section-river">
+            <div>
+                <h2>The Mysterious River</h2>
+                <p>The river is flowing swiftly .you see fish swimming benatgh iwedjh jhwby jhjbxuyge</p>
+                <form action="" method="post">
+                    
+                <fieldset>
+                        <legend>Choose an action:</legend>
+                        <label for="choice-river">Select :</label>
+                        <select id="choice-river" name="river-choice">
+                            <option value="fish">Try to catch a fish</option>
+                            <option value="swim" selected>Swim across</option>
+                            <option value="rest">Rest by the shore</option>
+                        </select>
+                        <input type="submit" value="choose">
+                    </fieldset>
+                </form>
+                <article>
+                    <h3>River WildLife</h3>
+                    <dl>
+                        <dt>Fish</dt>
+                        <dd>Swim gracefully and can be caught for dinner</dd>
+                        <dt>Turtle</dt>
+                        <dd>often seen sunbathing on rocks</dd>
+                    </dl>
+                </article>
+                <hr>
+            </div>
+        </section>
+        <section id="section-mountain">
+            <div>
+                <h2>The tall Mountain</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, necessitatibus!
+                </p>
+                <form action="" method="post">
+                    <fieldset>
+                        <legend>What do you do ?</legend>
+                        <input type="checkbox" id="choice-climb" name="mountain-climber" value="climb"><label for="choice-climb">Climb the mountains</label><br>
+                        <input type="checkbox" id="choice-explore" name="mountain-choice" value="explore"><label for="choice-explore">Explore the base of the mountains</label><br>
+                        <input type="submit" value="choose">
+                    </fieldset>
+                </form>
+                <article>
+                    <h3>Mountain Feature</h3>
+                    <ul>
+                        <li>Hidden Caves</li>
+                        <li>Beautiful Waterfalls</li>
+                        <li>Rare Plants</li>
+                    </ul>
+                    <img src="https://placeholder.com/400x200" alt="Mountain LandScape">
+                </article>
+                <hr>
+            </div>
+        </section>
+        <section id="section-outcome">
+            <div>
+                <h2>The Adventure outcome</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi amet dicta quo odit tempore! Sunt voluptates maiores asperiores repudiandae fuga aperiam aliquid vitae facere. Mollitia eveniet minus vel incidunt laudantium!</p>
+                <form action="" method="post">
+                    <textarea row="10" cols="50" placeholder="Share Your Experince"></textarea><br>
+                    <input type="submit" value="choose">
+                </form>
+                <hr>
+            </div>
+        </section>
+        <section id="section-multimedia">
+            <div>
+                <h2>Fun with multimedia</h2>
+                <p>Match a video with adventures:</p>
+                <video width="320" height="240">
+                    <source src="https://www.youtube.com/watch?v=KavoFGWV6pg&t=534s" type="video/mp4"> 
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <hr>
+        </section>
+        <section id="section-creature">
+            <div>
+                <h2>Adventure Creatures</h2>
+                <table border="1" cellpadding="8" cellspacing="0">
+                    <caption><strong>Creatures of the Adventure</strong></caption>
+                    <thead>
+                    <tr>
+                        <th>Creatures</th>
+                        <th>Description</th>
+                        <th>Danger Level</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Mermaid</td>
+                        <td>A mystical Creatures of the sea</td>
+                        <td><sup>Medium</sup></td>
+                    </tr>
+                    <tr>
+                        <td>Mountain Goat</td>
+                        <td>Agile climber of steap terrains</td>
+                        <td><sup>low</sup></td>
+                    </tr>
+                    <tr>
+                        <td>Dragon</td>
+                        <td>A fierce beast guarding treasures</td>
+                        <td><sup>High</sup></td>
+                    </tr>
+                </tbody>
+                </table>
+                <hr>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+        <h2>About this page</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi ab sunt labore odio quod recusandae provident illo quos, nesciunt debitis nihil optio. Consectetur sapiente ea velit vero. Quasi, maiores mollitia.</p>
+        <address>
+            <strong>
+                Contact:
+            </strong>
+            <a href="mailto:example@gmail.com"> Youremail@gmail.com</a>
+            
+            
+        </address>
+        <small>&copy;2024 Your Name. All rights reserved</small>
+    </div>
+    </footer>
+</body>
+</html>
